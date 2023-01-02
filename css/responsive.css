@@ -1,0 +1,185 @@
+@media(max-width:576px){
+    
+  
+    
+    .cajaselect {
+    border-radius: 4px 4px 4px 4px !important;
+    width: 100% !important;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
+
+.div-absolute {
+    position: static !important;
+    margin-top: 80px !important;
+   
+}
+    
+    .margin-top-bottom {
+    margin-bottom: 100px !important;
+}
+    
+    .logo-movil-cart{
+        font-size:30px !important;margin-top:10px !important;
+    }
+    
+    .titulo{
+            font-size: 20px !important;
+    }
+    .card-primario {
+
+
+    margin-top: -2%;
+   
+
+}
+
+.footer-ul{
+    text-align:center !important;
+}
+
+.p-movil{
+    text-align:center !important;
+}
+
+.btn-movil-f{
+    display:block !important;
+    width:100% !important;
+}
+
+}
+
+
+ @media(max-width: 768px){
+     
+        .fondo-movil{
+        background: linear-gradient( rgba(0, 0, 0, 0.2),
+   rgba(0, 0, 0, 0.5) )
+  ,url(../img/fondo-fisio.jpg) no-repeat center;
+         background-size: cover;
+          background-attachment: fixed;
+    }
+     
+     .img-destacada{
+  object-fit: cover !important;
+  height: 30vh !important;
+}
+#mainNav.navbar-shrink li.nav-item a.nav-link  {
+  color: #fff !important;
+}
+    .navbar{
+      background: #343a40 !important;
+    }
+    .display-4{
+		font-size: 2rem !important;
+    }
+
+video.fillWidth {
+  display:none;
+}
+
+.form-control-search{
+    width: 100% !important;
+    border-radius: 7px !important;
+    margin-bottom:5px !important;
+}
+
+.centrar-div{
+    text-align:left !important;
+}
+  }
+
+@media (min-width: 768px) {
+ 
+    .card-servicio{
+            margin-right: -9px !important;
+    margin-left: -9px !important;
+    }
+.owl-prev{
+  visibility: visible !important;
+}
+.owl-next{
+  visibility: visible !important;
+}
+.owl-dots {
+  visibility: hidden;
+}
+
+.div-absolute{
+    top:13%;
+}
+
+}
+
+@media (min-width: 992px) {
+    
+      .div-absolute{
+position:absolute;
+z-index:3;
+top:15%;
+width:100%;
+  }
+    
+    .titulo {
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.card-primario {
+  
+    margin-top: 0% !important;
+}
+
+    
+    .size-title{
+        font-size: 50px !important;
+    }
+    
+    .posicion-card{
+    position:relative;
+}
+       .centrar-div{
+    text-align:left !important;
+}
+.div-absolute{
+    top:7%;
+}
+
+.padding-left-0{
+    padding-left: 0px;
+}
+ 
+}
+
+
+
+@media (min-width: 1024px) {
+ 
+ .card-primario{
+         width: 450px !important;
+ }
+
+}
+
+
+@media (min-width: 1366px) {
+
+}
+
+@media (min-width: 1600px) {
+
+
+}
+
+
+@media (min-width: 1920px) {
+
+
+}
+
+@media (min-width: 2880px) {
+.video-container{
+    height:auto !important;
+}
+
+}

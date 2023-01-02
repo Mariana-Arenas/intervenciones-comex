@@ -1,0 +1,1401 @@
+/*
+@font-face {
+  font-family: 'AirbnbCerealApp-Medium';
+  src: url('../fonts/AirbnbCerealApp-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/AirbnbCerealApp-Medium.woff') format('woff'), url('../fonts/AirbnbCerealApp-Medium.ttf')  format('truetype'), url('../fonts/AirbnbCerealApp-Medium.svg#AirbnbCerealApp-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AirbnbCerealLight.ttf';
+  src: url('../fonts/AirbnbCerealLight.eot?#iefix') format('embedded-opentype'),  url('../fonts/AirbnbCerealLight.woff') format('woff'), url('../fonts/AirbnbCerealLight.ttf')  format('truetype'), url('../fonts/AirbnbCerealLight.svg#AirbnbCerealLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+p, h2, h1, h3, h5, strong, span, h4, h6, a, li, small, b, div{
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.adorno_f{
+  position: relative;
+  background-color: #fff !important;
+  border-bottom: 0px !important;
+  border-radius: 0px !important;
+}
+
+.hover_pay:hover {
+    box-shadow: 0px 0px 7px #ccc;
+}
+
+.hover_pay {
+  margin: 10px 0px;
+  box-shadow: 0px 0px 7px #ededed;
+}
+.hover_pay {
+    margin-bottom: 0px;
+    padding: 0px 20px;
+}
+
+.owl-stage {
+    margin: auto !important;
+}
+
+.color_blanc {
+    background-color: #fff !important;
+}
+
+.avanzar_e a {
+    position: absolute;
+    left: 0;
+    width: 94% !important;
+    right: 0;
+    bottom: 20px;
+    margin: auto;
+}
+
+.dia-activo .card {
+    background-color: #46b6ff !important;
+    border-radius: 0px !important;
+}
+
+.item .card-body {
+    border: 1px solid #f2f2f2;
+    box-shadow: none !important;
+    min-height: 75px;
+}
+
+@media (max-width: 767px){
+  .actualizar li span {
+    display: none;
+}
+}
+
+
+
+@media (min-width: 768px){
+
+.actualizar li span {
+    font-size: 13px;
+}
+.adorno_f::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    left: 0;
+    width: 77%;
+    background-color: #46b6ff !important;
+    right: 0;
+    margin: auto;
+    top: 38.5%;
+}
+
+}
+
+@media (min-width: 992px){
+.adorno_f{
+  position: relative;
+}
+.actualizar li span {
+    font-size: 16px;
+}
+.adorno_f::before {
+    top: 36.6%;
+}
+
+}
+
+
+
+
+
+
+
+.griss {
+    background: #eee !important;
+}
+
+.card {
+    box-shadow: none !important;
+    background-color: transparent !important;
+    border: 0px !important;
+}
+
+.text-info{
+    color:#46b6ff !important;
+}
+
+.btn-info {
+    background-color: #46b6ff !important;
+    border-color: #46b6ff !important;
+    color: #fff !important;
+    font-weight: 500;
+}
+
+.btn-outline-info{
+    border-color:#46b6ff !important;
+    color:#46b6ff !important;
+}
+
+a.btn-outline-info:hover{
+    border-color:#46b6ff !important;
+    background-color:#46b6ff !important;
+    color:#fff !important;
+}
+
+.form-select{
+    background:#fff !important;
+}
+/*
+.form-control{
+     font-family: 'AirbnbCerealApp-Medium' !important;
+}
+
+h1,h2,h3,h4,h5,p,a,label,span{
+     font-family: 'AirbnbCerealApp-Medium' !important;
+}
+
+p{
+   font-family: 'AirbnbCerealLight.ttf' !important; 
+}
+
+.btn{
+     font-family: 'AirbnbCerealApp-Medium' !important;
+}*/
+
+.datepicker--day-name{
+    color:#17a2b8 !important;
+}
+
+#comofunciona{
+    padding-bottom: 6rem !important;
+    padding-top: 6rem !important;
+}
+
+.padding-footermodal{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+
+
+.btn-ver-empresas{
+      background:none !important;
+      border:0 !important;
+      border-bottom:2px solid #343a40 !important;
+      color:#343a40 !important;
+      border-radius:0!important;
+      text-transform:normal !important;
+}
+
+
+.owl-theme .owl-nav [class*='owl-']:hover{
+    background:none !important;
+    color:#343a40 !important;
+}
+.d-inline-block > .img-thumbnail{
+    border-radius:0!important;
+}
+
+.btn-social{
+     border-radius: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 2.25rem;
+  height: 2.25rem;
+  font-size: 1.25rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background:#f8f9fa;
+  color:#343a40 !important;
+}
+  
+  .iconos-p{
+      width:80px;
+  }
+  
+  
+  .video-container 
+{
+  top: 0%;
+  left: 0%;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+video.fillWidth {
+  width: 100%;
+}
+
+
+   #mainNav li.nav-item a.nav-link  {
+  color: #fff !important;
+      font-size: 15px !important;
+    text-transform: none !important;
+}
+
+#mainNav.navbar-shrink li.nav-item a.nav-link  {
+  color: #343a40 !important;
+}
+
+#mainNav.navbar-shrink li.nav-item > a.nav-link:hover {
+  border-bottom: 2px solid #343a40;
+   border-radius:0 !important;
+transition: all .3s;
+}
+
+.form-group .form-select{
+     -moz-appearance: none;
+ -webkit-appearance: none;
+ appearance: none;
+ background: url(../img/up.png) no-repeat 95% #fff !important;
+  font-family: 'AirbnbCerealApp-Medium' !important;
+}
+
+  #mainNav.navbar-shrink ul.navbar-nav > li.nav-item > a.nav-link.active {
+   border-bottom: 2px solid #343a40;
+transition: all .3s;
+
+
+  }
+
+.header .header-heading {
+  font-size: 1.75rem;
+  line-height: 2.75rem;
+}
+
+  .img-slider{
+    object-fit:cover !important;
+    height:600px !important;
+    width:100% !important;
+  }
+
+  .text-primary{
+    color: #17a2b8 !important;
+  }
+  .bg-primary{
+    background: #17a2b8 !important; 
+  }
+  #header {
+  background: linear-gradient( rgba(0, 0, 0, 0.5),
+   rgba(0, 0, 0, 0.5) )
+  ,url(../img/FISIA_049.jpg) no-repeat center;
+  background-size: cover;
+}
+.bg-opacity{
+  margin-top: 50px;
+}
+#social{
+  position: absolute;
+}
+.navbar-social{
+margin-bottom: 1rem;
+margin-top: 1rem;
+margin-left: 0rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+.navbar-social .item-social{
+list-style: none;
+display: inline-block;
+margin-left: 1.5rem;
+}
+
+.link-social{
+  color: #ffff ;
+  font-weight: bold;
+  text-decoration: none !important;
+}
+.link-social:hover{
+  color: #ffff;
+}
+.link-social i{
+  color: #ffff;
+}
+
+.navbar-brand img{
+  width: 50px;
+  margin-top: -20px;
+  margin-right: 10px;
+}
+
+.bottom-up {
+  background: rgba(0,0,0,0.5);
+  padding: 15px;
+  font-size: 2rem;
+  border-radius: 0.25rem;
+  color: #fff;
+  position: relative;
+  left: 0;
+  right:0;
+  top: 30px;
+}
+
+a.bottom-up:hover{
+  background: #343a40;
+  color: #fff;
+    -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  transition: all 0.9s;
+}
+
+.header-heading{
+  margin-top: 0;
+}
+
+
+a{
+  text-decoration: none !important;
+}
+
+
+.bg-gray{
+  background-color: #cdcdcd;
+}
+
+
+.bg-dark{
+  background-color: #191919 !important;
+}
+
+
+.bg-black{
+  background: #0e0e0e;
+}
+
+.color_blanco {
+    background-color: #fff !important;
+    position: relative !important;
+    border-radius: 0px !important;
+}
+
+.fixed{
+position:fixed;
+ top:0;
+ width: 100% !important;
+ z-index:99999999;
+transition-duration: .5s;
+}
+
+.wrapper{
+width:100%
+}
+
+.card-img-top {
+  border-top-left-radius: 0!important;
+  border-top-right-radius: 0!important;
+  object-fit: cover;
+}
+
+img.card-img-top.img-destacada {
+    height: 175px;
+    width: auto;
+}
+
+.sub_title1 {
+    min-height: 85px;
+    display: flex;
+    align-items: center;
+}
+
+.card-title{
+  font-size:15px !important;
+}
+
+.card-servicio{
+ 
+}
+
+.text-gris-f{
+    color:#ababab !important;
+}
+
+.logo-sm{
+    width:70px;
+}
+
+.card-footer {
+  background-color: #fff !important;
+  border-top: 1px solid transparent !important;
+  padding-bottom: 20px;
+}
+
+.btn-primary{
+ color: #fff;
+ background: #f70759 !important;
+ border-color: #f70759 !important;
+}
+
+a.btn-primary:hover{
+ color: #fff;
+ background: #e60753 !important;
+ border-color: #e60753 !important;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(245, 0, 87,0.25) !important;
+}
+
+
+.card-text{
+  font-size: 15px;
+}
+
+.border{
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  border: 0px !important;
+ transition: all ease .5s;
+}
+
+
+.btn-reverse:hover {
+    border-color: #46b6ff !important;
+    color: #46b6ff !important;
+    background: transparent !important;
+}
+
+.btn-reverse {
+    border-color: #46b6ff !important;
+    color: #fff !important;
+    background: #46b6ff !important;
+}
+
+
+.boton-subir {
+    display: none;
+    background: #343a40;
+    border: thin solid #343a40;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: 31px;
+    /* left: 15px; */
+    z-index: 999999999;
+}
+/*evento hover*/
+.boton-subir:hover{
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+/*estilos para el tag i*/
+.boton-subir i{
+  color: #fff;
+  font-size: 1em;
+  padding: 10px 15px 15px 15px;
+
+}
+
+.navbar-toggler{
+  border: 0!important;
+}
+
+.nav-item{
+    padding-right: 20px;
+    padding-left: 5px;
+}
+
+.nav-link:hover{
+ border-bottom: 2px solid #fff;
+transition: all .3s;
+border-radius:0 !important;
+ border-radius:0 !important;
+}
+
+.logo-pc{
+position:absolute;
+z-index:99;
+top:70%;
+}
+
+.nav-link{
+  text-transform: uppercase;
+  color: #191919 !important;
+  font-weight: normal;
+     border: 2px solid transparent;
+   transition: all .3s;
+   border-radius:0 !important;
+   
+}
+
+
+
+
+.form-control{
+ border: 0!important;
+   font-family: 'AirbnbCerealApp-Medium' !important;
+}
+
+.form-control-search{
+    border: 1px solid #EBEBEB !important;
+    border-radius:4px !important;
+    font-size:16px !important;
+    padding-top:9px !important;
+    padding-bottom:9px !important;
+     font-family: 'AirbnbCerealApp-Medium' !important;
+}
+
+._1u1fi4p{
+        -webkit-box-align: center !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    position: relative !important;
+    align-items: center !important;
+    background-color: #ffffff !important;
+    border: 1px solid #EBEBEB !important;
+    border-radius: 4px !important;
+    height: 48px !important;
+}
+
+.formgorup{
+    margin-top: 16px; margin-bottom: 16px;
+}
+
+.linea-h{
+    width:50% !important; 
+    margin:0 auto !important;
+}
+
+.btn{
+    padding-top:10px !important;
+    padding-bottom:10px !important;
+    padding-left:22px !important;
+    padding-right:22px !important;
+    border-width:2px !important;
+    font-size:16px !important;
+    border-radius:4px !important;
+}
+ 
+.card-primario > .card-body{
+    padding:0!important;
+}
+
+
+.titulo{
+  font-weight: bold;
+  line-height: 36px !important;
+  font-size: 25px !important;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+
+#fisio{
+background: url(../img/tusfisios.jpg) no-repeat center;
+background-size: cover;
+}
+
+/*ACORDEON*/
+
+.accordion {
+
+  margin: 0 auto;
+}
+.accordion__title {
+   font-family: 'AirbnbCerealApp-Medium' !important;
+  font-weight: 300;
+  color: #cdcdcd !important;
+  text-transform: uppercase;
+  font-size: 1.125em;
+}
+.accordion__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.accordion__item {
+  visibility: hidden;
+  margin-top: 20px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.accordion__item:last-child {
+  border-bottom: 0;
+}
+.accordion__item.is-active .accordion__itemTitleWrap::after {
+  -webkit-transform: translateX(-20%);
+          transform: translateX(-20%);
+                   background: #28a745;
+                   
+}
+
+
+.is-active > .accordion__itemTitleWrap > .accordion__itemTitle{
+  color: #fff !important; 
+}
+
+.is-active > .accordion__itemTitleWrap > .accordion__itemIconWrap{
+  color: #fff !important; 
+}
+
+
+
+.accordion__item.is-active .accordion__itemIconWrap {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.accordion__itemTitleWrap {
+  display: flex;
+  height: 3.5em;
+  align-items: center;
+  padding: 0 1em;
+  color: #6c757d;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.accordion__itemTitleWrap::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background: #fff;
+  z-index: 1;
+  transition: -webkit-transform .4s ease;
+  transition: transform .4s ease;
+  transition: transform .4s ease, -webkit-transform .4s ease;
+}
+.accordion__itemTitleWrap.is-active::after, .accordion__itemTitleWrap:hover::after {
+  -webkit-transform: translateX(-20%);
+          transform: translateX(-20%);
+
+}
+.accordion__itemIconWrap {
+  width: 1.25em;
+  height: 1.25em;
+  margin-left: auto;
+  position: relative;
+  z-index: 10;
+
+}
+.accordion__itemTitle {
+  margin: 0;
+  font-size: 1em;
+  position: relative;
+  z-index: 10;
+  color: #6c757d;
+}
+.accordion__itemContent {
+  font-size: 0.875em;
+  height: 0;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 0 1.25em;
+} .accordion__itemContent p {
+  margin: 2em 0;
+}
+
+/*ACORDEON*/
+
+.icon-masajes{
+  width: 20%;
+}
+
+/*PRECIOS*/
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+
+/*PRECIOS*/
+
+.coments .owl-prev{
+  position:absolute !important;
+  font-size:80px !important;
+  left:-50px !important;
+  top:0px !important;
+  visibility: hidden;
+  outline: 0 !important;
+}
+
+.coments .owl-next {
+    position: absolute !important;
+    font-size: 80px !important;
+    right: -50px !important;
+    top: 0px !important;
+    visibility: hidden;
+    outline: 0 !important;
+}
+
+.owl-prev{
+  position:absolute !important;
+  font-size:50px !important;
+  left:-30px !important;
+  top:5px !important;
+  visibility: hidden;
+  outline: 0 !important;
+}
+
+.owl-next {
+    position: absolute !important;
+    font-size: 50px !important;
+    right: -30px !important;
+    top: 5px !important;
+    visibility: hidden;
+    outline: 0 !important;
+}
+
+.coments .owl-nav {
+    width: 100%;
+    position: absolute;
+    top: 24%;
+}
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+.hr-footer{
+    border-color:gray !important;
+}
+
+.copyright {
+  background-color: #212020;
+}
+
+
+.footer-ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-ul li{
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.footer-ul li a:hover{
+  color: #fff;
+}
+
+  .div-absolute{
+margin-top:30px;
+  }
+  
+ .form-1{
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+ }
+ 
+  .form-2{
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+ }
+
+    .carousel-control-prev{
+    visibility: hidden !important;
+  }
+  .carousel-control-next{
+    visibility: hidden !important;
+  }
+  
+.card-primario {
+
+    background-color: #fff !important;
+    border-radius: 4px !important;
+    padding: 32px !important;
+    box-shadow: 0 16px 40px rgba(0,0,0,0.12) !important;
+    margin-top: 15%;
+    border:0 !important;
+}
+
+.card-primario label{
+    font-size:12px !important;
+}
+  
+  @media (max-width: 768px){
+    .google-maps {
+    position: relative;
+    padding-bottom: 80%; 
+    height: 0;
+    overflow: hidden;
+    }
+}
+@media (min-width: 768px){
+    .google-maps {
+    position: relative;
+    margin-top: 0px;
+    padding-bottom: 80%; 
+    height: 0;
+    overflow: hidden;
+    }
+}
+    .google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100%  !important;
+    }
+    
+    
+   option{
+        background:#fff !important;
+         font-family: 'AirbnbCerealApp-Medium' !important;
+        font-size: 14px;
+    color: #4a4a4a;
+    }
+    
+    .form-control:focus {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+
+/*PASOS*/
+
+
+.lista-pasos{
+    
+    display: flex;
+  justify-content: space-around;
+  margin:0;
+  padding:0;
+}
+
+.actualizar li span {
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center !important;
+}
+.lista-pasos li {
+    list-style: none !important;
+    display: inline-block;
+    padding: 10px 15px;
+    text-align: center;
+    width: 20%;
+}
+
+.lista-pasos li a{
+    color:#17a2b8;
+    background:#fff;
+    border:2px solid #46b6ff !important;
+     border-radius: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.lista-pasos li.active a {
+    color: #fff;
+    background: #46b6ff !important;
+}
+
+.card-hora{
+  padding: 0px !important;
+}
+
+@media(max-width:576px){
+.lista-pasos li a {
+    width: 40px;
+    height: 40px;
+}
+.actualizar li span {
+    display: none;
+}
+    .lista-pasos li{
+    padding:0px;
+}
+
+.tbas_s {
+    width: 50% !important;
+    padding: 10px !important;
+}
+
+}
+
+.profile2 {
+  border-radius: 50%;
+  max-width: 40%;
+  opacity: 1;
+  border: 2px solid rgba(255, 255, 255, 1);
+}
+
+
+
+.formulario .radio label{
+        display: inline-block;
+        cursor: pointer;
+        position: relative;
+        font-size: 1em;
+         border: 0.125rem solid rgba(0, 0, 0, 0.125);
+        border-radius: 0.5rem;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        width:100%;
+        -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    }
+    
+    .formulario .radio label:hover{
+      background: rgba(58, 176, 195, 0.5);
+      color:#fff;
+    }
+    
+  .formulario input[type="radio"] {
+    display: none; 
+      
+  }
+    .formulario input[type="radio"]:checked + label:before {
+      display: none; 
+        
+    }
+    .formulario input[type="radio"]:checked + label {
+      color: #fff;
+  background-color: #138496;
+  border-color: #117a8b;
+       border-radius: 0.5rem;
+       }
+    
+    
+.dia-activo p {
+    color: #fff !important;
+}
+
+.cursor{
+    cursor:pointer !important;
+}
+    
+    .card-fecha{
+        background: transparent;
+            box-shadow: none !important;
+            border:0 !important;
+    }
+    
+    
+    
+    /*PAGO*/
+    .paymentWrap .paymentBtnGroup .paymentMethod {
+  box-shadow: none;
+  position: relative;
+  background: #fff !important;
+  color: #929292 !important;
+  border:2px solid #343a40 !important;
+
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod.active {
+  outline: none !important;
+  background: #17a2b8 !important;
+  color: #fff !important;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method {
+padding: 20px;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method {
+  position: relative;
+  right: 3px;
+  top: 3px;
+  bottom: 3px;
+  left: 3px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid #17a2b8;
+  transition: all 0.5s;
+}
+
+
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.master-card{
+background-image: url(../img/Mastercard.png);
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.paypal {
+background-image: url(../img/paypal.png);
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.mercadopagoArgentina {
+background-image: url(../img/Visa.png);
+margin-top: 5px;
+
+}
+.paymentWrap .paymentBtnGroup .paymentMethod .method:hover {
+  border-color: none;
+  outline: none !important;
+  cursor: pointer;
+}
+
+.texto-moneda{
+  font-size: 20px !important;
+  cursor: pointer;
+}
+
+.texto-moneda small{
+  font-size: 10px !important;
+}
+
+.img-pagos{
+    width:50%;
+}
+
+    #fondo-body{
+        background: linear-gradient( rgba(0, 0, 0, 0.2),
+   rgba(0, 0, 0, 0.5) )
+  ,url(../img/fondo-fisio.jpg) no-repeat center;
+         background-size: cover;
+          background-attachment: fixed;
+    }
+    .size-label{
+        font-size: 25px !important;
+    }
+    
+    /*Profile Card 3*/
+.profile-card-3 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  height:auto;
+  border:none;
+   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+      z-index: 1;
+}
+.profile-card-3 .background-block {
+    float: left;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+.profile-card-3 .background-block .background {
+  width:100%;
+  vertical-align: top;
+  opacity: 0.9;
+  -webkit-filter: blur(0.5px);
+  filter: blur(0.5px);
+   -webkit-transform: scale(1.8);
+  transform: scale(2.8);
+}
+.profile-card-3 .card-content {
+  width: 100%;
+  padding: 15px 25px;
+  color:#232323;
+  float:left;
+  background:#fff;
+  height:50%;
+  border-radius:0 !important;
+  position: relative;
+  z-index: 9999;
+}
+
+.profile-card-3 .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 52%;
+  left: 50%;
+  max-width: 105px;
+  opacity: 1;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 255, 255, 1);
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+  z-index:99999;
+}
+.profile-card-3 h2 {
+  margin: 0 0 5px;
+  font-weight: 600;
+  font-size:25px;
+}
+.profile-card-3 h2 small {
+  display: block;
+  font-size: 15px;
+  margin-top:10px;
+}
+
+.profile-card-3 .icon-block{
+    float:left;
+    width:100%;
+    margin-top:15px;
+}
+.profile-card-3 .icon-block a{
+    text-decoration:none;
+}
+
+.margin-top-bottom{
+    margin-top:70px;
+    margin-bottom:70px;
+}
+
+.parrafos {
+    font-size: 15px !important;
+    color: #000 !important;
+}
+
+.titulos_Fecha{
+  font-size: 22px !important;
+}
+
+.titulos-Hora{
+  font-size: 22px !important;
+}
+.parrafos{
+        font-size: 15px !important;
+}
+
+/*Select personalizado*/
+
+.cajaselect {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    position: relative;
+     border: 1px solid #EBEBEB;
+    z-index: 1;
+    color:#4a4a4a !important;
+    width: 50%;
+}
+ul.listaselect {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #dbdbdb;
+    display: none;
+    left: -1px;
+    border-radius:4px;
+    margin-left: 0;
+    margin-top: 49px;
+    padding-left: 0;
+    position: absolute;
+    text-indent: 15px;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+        overflow: auto;
+    height: 200px;
+    z-index:999999999999;
+
+}
+ul.listaselect li {
+    border-bottom: 1px solid #efefef;
+    cursor: pointer;
+    display: block;
+    line-height: 15px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0.8em 0.3em;
+    
+}
+ul.listaselect li a {
+    color:#4a4a4a !important;
+    text-decoration: none;
+    font-size:14px;
+    font-family: 'AirbnbCerealApp-Medium' !important;
+}
+ul.listaselect li a:hover {
+    color: #999797;
+    text-decoration: none;
+}
+ul.SelectProductos li:last-child {
+    border-bottom: medium none;
+}
+.seleccionado {
+     color:#4a4a4a !important;
+    display: block;
+    padding-top:8px;
+    padding-left:8px;
+     font-family: 'AirbnbCerealApp-Medium' !important;
+    
+}
+
+/*Select personalizado 2*/
+
+.cajaselect_tipo {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    position: relative;
+     border: 1px solid #EBEBEB;
+    z-index: 0;
+    color:#4a4a4a !important;
+    width: 100%;
+}
+ul.listaselect_tipo {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #dbdbdb;
+    display: none;
+    left: -1px;
+    border-radius:4px;
+    margin-left: 0;
+    margin-top: 49px;
+    padding-left: 0;
+    position: absolute;
+    text-indent: 15px;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+        overflow: auto;
+    height: 200px;
+    z-index:999999999999;
+
+}
+ul.listaselect_tipo li {
+    border-bottom: 1px solid #efefef;
+   cursor: pointer;
+    display: block;
+    line-height: 15px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0.8em 0.3em;
+    
+}
+ul.listaselect_tipo li a {
+    color:#4a4a4a !important;
+    text-decoration: none;
+    font-size:14px;
+    font-family: 'AirbnbCerealApp-Medium' !important;
+}
+ul.listaselect_tipo li a:hover {
+    color: #999797;
+    text-decoration: none;
+}
+ul.SelectProductos_tipo li:last-child {
+    border-bottom: medium none;
+}
+.seleccionado_tipo {
+     color:#4a4a4a !important;
+    display: block;
+    padding:8px;
+    padding-left:8px;
+     font-family: 'AirbnbCerealApp-Medium' !important;
+    
+}
+
+ 
+/*VIDEO*/
+.headerv {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.content {
+  max-width: 40rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+.header-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header-video video {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.header-overlay {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #303952;
+  z-index: 1;
+  opacity: .85;
+}
+
+.header-content {
+  z-index: 2;
+}
+
+
+
+
+@media (max-width: 960px) {
+  .content {
+    padding: 0 3rem 0 3rem;
+  }
+}
+
+
+
