@@ -54,7 +54,7 @@
 <li class="nav-item dropdown no-arrow">
   <a onclick="verconfiguracion();"  class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" >
     <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $_SESSION['comex']['usuario']['nombre']?></span>
-    <img class="img-profile rounded-circle" style="height: 59%;width: 38px;" src="/uploads/usuarios/<?php 
+    <img class="img-profile rounded-circle" style="height: 59%;width: 38px;" src="uploads/usuarios/<?php 
     if ($_SESSION['comex']['usuario']['perfilfoto']==null)
     {
       echo "no-profile-img.png";
