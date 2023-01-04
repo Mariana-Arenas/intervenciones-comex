@@ -6,7 +6,7 @@
 <a class="sidebar-brand d-flex align-items-center justify-content-center" href="dashboard">
 
   <div class="sidebar-brand-icon">
- <img src="/images/logo.jpg" style="max-width:32%">
+ <img src="images/logo.jpg" style="max-width:32%">
   </div>  
 </a>
 

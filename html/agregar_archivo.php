@@ -38,6 +38,12 @@
                             <div class="col-sm-2">
                                     <label  class="control-label required">Indicar letra de las columnas</label>
                                 </div>
+                                    <div class="col-12">
+                                        <label for="cargadas">Seleccione una opción guardada con anterioridad</label>
+                                        <select name="cargadas" id="cargadas">
+
+                                        </select>
+                                    </div>
                                 <div class="col-sm-1">
                                     <label  class="control-label required">Ncm</label>
                                 </div>
@@ -204,6 +210,7 @@
 <?php require_once('resources/html/footer.php'); ?>
 <?php require_once('resources/html/script.php'); ?> 
 <script>
+        let lista = [];
 $(document).ready(function(){
     
     var multipleCancelButton = new Choices('#choices-multiple-remove-button', {
@@ -212,13 +219,84 @@ $(document).ready(function(){
        searchResultLimit:9,
        renderChoiceLimit:9,       
      }); 
+            cargarlista();
     
   
     
 });
 
+        function savevalue() {
+            const tmp = {
+                "ncm": "" + $('input[name=ncm]').val(),
+                "origen": "" + $('input[name=origen]').val(),
+                "fob": "" + $('input[name=fob]').val(),
+                "cantidad": "" + $('input[name=cantidad]').val(),
+                "peso_neto": "" + $('input[name=peso_neto]').val(),
+                "codigo_articulo": "" + $('input[name=codigo_articulo]').val(),
+                "descripcion_articulo": "" + $('input[name=descripcion_articulo]').val(),
+            }
+            var bandera = false
+            lista.forEach((e) => {
+                if (e["ncm"] == tmp.ncm && e["origen"] == tmp.origen && e["fob"] == tmp.fob && e["cantidad"] == tmp.cantidad && e["peso_neto"] == tmp.peso_neto && e["codigo_articulo"] == tmp.codigo_articulo && e["descripcion_articulo"] == tmp.descripcion_articulo) {
+                    return bandera = true;
+                }
+            });
+            if (bandera == false) {
+                lista.push(tmp);
+                localStorage.setItem("reg", JSON.stringify(lista));
+                console.log(lista);
+                cargarlista();
+            }
+        }
+
+        $("#cargadas").change(function() {
+            var tmp = lista[$("#cargadas").val()];
+            if ($("#cargadas").val() == "") {
+                limpiar();
+            } else {
+                $('input[name=ncm]').val(tmp.ncm);
+                $('input[name=origen]').val(tmp.origen);
+                $('input[name=fob]').val(tmp.fob);
+                $('input[name=cantidad]').val(tmp.cantidad);
+                $('input[name=peso_neto]').val(tmp.peso_neto);
+                $('input[name=codigo_articulo]').val(tmp.codigo_articulo);
+                $('input[name=descripcion_articulo]').val(tmp.descripcion_articulo);
+            }
+        });
+
+        function limpiar() {
+            $('input[name=ncm]').val("");
+            $('input[name=origen]').val("");
+            $('input[name=fob]').val("");
+            $('input[name=cantidad]').val("");
+            $('input[name=peso_neto]').val("");
+            $('input[name=codigo_articulo]').val("");
+            $('input[name=descripcion_articulo]').val("");
+        }
+
+        function cargarlista() {
+            var tmp = JSON.parse(localStorage.getItem("reg"));
+            lista = [];
+            $("#cargadas").empty();
+            $('#cargadas').append("<option value=''></option>");
+            $.each(tmp, function(i, item) {
+                const tmpitem = {
+                    "ncm": item.ncm,
+                    "origen": item.origen,
+                    "fob": item.fob,
+                    "cantidad": item.cantidad,
+                    "peso_neto": item.peso_neto,
+                    "codigo_articulo": item.codigo_articulo,
+                    "descripcion_articulo": item.descripcion_articulo,
+                }
+                lista.push(tmpitem);
+                $('#cargadas').append("<option value='" + i + "' >" + item.ncm + " - " + item.origen + " - " + item.fob + " - " + item.cantidad + " - " + item.peso_neto + " - " + item.codigo_articulo + " - " + item.descripcion_articulo + "</option>");
+            });
+        }
+
  $('#div_manual').show();
 $(".edit").on('click',function(){
+    savevalue();
     $(".ajax-msg").html("Aguarde un instante");
     $("#miModal").modal("show");
     var options = document.getElementById('choices-multiple-remove-button').selectedOptions;
@@ -245,7 +323,7 @@ $(".edit").on('click',function(){
     },
     error: function(data){
     }
-    }); 
+    });
 }); 
 
 
@@ -268,4 +346,4 @@ function mostrar_gravamen(valor)
 }
 </script>
 </body> 
-</html> 
+</html>
